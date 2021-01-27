@@ -1,3 +1,4 @@
+
 const server = require('http').createServer((request, response) => {
   response.writeHead(204, {
       'Access-Control-Allow-Origin': '*',
@@ -18,7 +19,7 @@ io.on('connection', socket => {
   console.log('connection', socket.id)
   socket.on('join-room', (roomId, userId) => {
       
-      // Add all users to the same room
+      // adiciona os usuarios na mesma sala
       socket.join(roomId)
       socket.to(roomId).broadcast.emit('user-connected', userId)
       socket.on('disconnect', () => {
