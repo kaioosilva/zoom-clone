@@ -1,7 +1,7 @@
 # Projeto base da JS Expert Week 2.0
 
 - Acesse o [home](public/pages/home/index.html) para acessar a home page
-- Acesse o [room](public/page/room/index.html) uma room específica
+- Acesse o [room](public/pages/room/index.html) uma room específica
 
 ## Home Page
 
