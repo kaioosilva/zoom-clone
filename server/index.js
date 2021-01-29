@@ -1,4 +1,3 @@
-
 const server = require('http').createServer((request, response) => {
   response.writeHead(204, {
       'Access-Control-Allow-Origin': '*',
