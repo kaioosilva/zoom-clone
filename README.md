@@ -15,7 +15,7 @@
 
 <p align="center">
 
-  <img alt="Layout" src="https://res.cloudinary.com/kaioosilva/image/upload/v1612868164/twitter-clone.png">
+  <img alt="Layout" src="https://res.cloudinary.com/kaioosilva/image/upload/v1614081263/clone-zoom_fey6xn.gif">
   
 </p>
 
@@ -24,7 +24,8 @@
 Technologies that I used to develop this Zoom's clone:
 
 - [NodeJS](https://nodejs.org/en/)
-- [SocketIO](https://socket.io/)
+- [Socket.IO](https://socket.io/)
+- [PeerJS](https://peerjs.com/)
 
 ## 💻 Getting started
 
